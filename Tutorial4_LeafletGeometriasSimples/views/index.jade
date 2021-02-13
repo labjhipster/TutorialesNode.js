@@ -15,24 +15,24 @@ html(lang='en')
         var map = L.map('map').setView([51.505, -0.09], 13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
         {
-        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> ',
-        maxZoom: 18,
-        minZoom: 9,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> ',
+            maxZoom: 18,
+            minZoom: 9,
         }).addTo(map);
         // marcador
         var marker= L.marker([51.5,-0.09]).addTo(map);
         // circulo
         var circle = L.circle([51.508, -0.11], {
-        color: 'red',
-        fillColor: '#f03',
-        fillOpacity: 0.3,
-        radius: 500
+            color: 'red',
+            fillColor: '#f03',
+            fillOpacity: 0.3,
+            radius: 500
         }).addTo(map);
         // poligono
         var polygon = L.polygon([
-        [51.509, -0.08],
-        [51.503, -0.06],
-        [51.51, -0.047]
+            [51.509, -0.08],
+            [51.503, -0.06],
+            [51.51, -0.047]
         ]).addTo(map);
         
         //adicionales
