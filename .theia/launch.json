@@ -7,8 +7,8 @@
           "type": "node",
           "request": "launch",
           "name": "Launch Program",
-          //"program": "${workspaceFolder}/Tutorial10_LeafletSeleccionarDeMongoDBUnaGeometria/app.js"
-          "program": "${workspaceFolder}/geospacial-mongodb-api/server.js"
+          "program": "${workspaceFolder}/Tutorial10_LeafletSeleccionarDeMongoDBUnaGeometria/app.js"
+          //"program": "${workspaceFolder}/geospacial-mongodb-api/server.js"
       }
   ]
 }
