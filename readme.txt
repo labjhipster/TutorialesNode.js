@@ -43,3 +43,8 @@ db.places.find(
 	  }
 	}
 );
+
+
+https://3000-green-cobra-59edpp8j.ws-eu03.gitpod.io/api/places/
+
+https://3000-green-cobra-59edpp8j.ws-eu03.gitpod.io/api/places/near?long=-3.674948&latt=40.411325&distance=2000
